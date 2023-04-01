@@ -1,0 +1,15 @@
+@media screen and (max-width:820px) {
+    .cart {
+        height: 100vh;
+        display: grid;
+        grid-template-columns:1fr;
+    
+        > aside {
+            padding: 2rem;
+            border-radius: 0;
+            >h2 {
+                font-size: 1.2rem;
+            }
+        }
+    }
+}
